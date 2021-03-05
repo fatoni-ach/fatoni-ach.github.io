@@ -1,5 +1,6 @@
+
 body{
-    background-color:whitesmoke;
+    background-color: whitesmoke;
 }
 .width-mobile{
     width : 500px;
@@ -81,4 +82,8 @@ background: white;
 }
 .logo-image-sm{
     height: 38px;
+}
+.text-location{
+    font-size: 10pt;
+    margin-bottom: 0px;
 }
