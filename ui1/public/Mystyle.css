@@ -87,3 +87,9 @@ background: white;
     font-size: 10pt;
     margin-bottom: 0px;
 }
+
+@media (max-width: 575.98px) { 
+    .width-mobile{
+        width : 100vw;
+    }
+ }
