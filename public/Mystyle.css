@@ -1,0 +1,84 @@
+body{
+    background-color:whitesmoke;
+}
+.width-mobile{
+    width : 500px;
+}
+.img-social-media{
+    width: 35px;
+}
+
+.carousel-cell {
+    width: 100%; /* full width */
+    height: 175px; /* height of carousel */
+}
+.carousel-cell-image{
+    width: 100%;
+    height: 175px;
+}
+/* smaller, dark, rounded square */
+.flickity-button {
+    background: #333;
+}
+.flickity-button:hover {
+background: #F90;
+}
+
+.flickity-prev-next-button {
+width: 30px;
+height: 30px;
+border-radius: 5px;
+}
+/* icon color */
+.flickity-button-icon {
+fill: white;
+}
+/* position outside */
+.flickity-prev-next-button.previous {
+left: 0;
+}
+.flickity-prev-next-button.next {
+right: 0;
+}
+/* position dots in carousel */
+.flickity-page-dots {
+bottom: 5px;
+}
+/* white circles */
+.flickity-page-dots .dot {
+width: 5;
+height: 5;
+opacity: 1;
+background: rgba(255, 255, 255, 0.4);
+/* border: 2px solid white; */
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+background: white;
+}
+
+.card-title{
+    font-size: 10pt;
+    color: #333;
+}
+
+.text-kategori{
+    font-size: 15pt;
+    font-weight: bold;
+}
+.top-left {
+    position: absolute;
+    top: -5px;
+    left: 0px;
+}
+.card-hover:hover{
+    background-color: rgb(255, 189, 91);
+    width: 102%;
+    height: 102%;
+}
+.logo-image{
+    height: 45px;
+}
+.logo-image-sm{
+    height: 38px;
+}
