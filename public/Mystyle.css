@@ -113,7 +113,7 @@ body{
         display: none;
     }
     .carousel-cell {
-        width: 50%; /* full width */
+        width: 100%; /* full width */
         height: 160px; /* height of carousel */
         text-align: center;
     }
