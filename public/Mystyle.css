@@ -4,7 +4,6 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
 }
 .img-profil{
     width: 152px;
@@ -71,6 +70,7 @@ body{
     height: 3px;
     background-color: #FFFFFF;
     margin-top: -3px;
+    border-radius: 2px;
 }
 .carousel-cell {
     width: 33%; /* full width */
