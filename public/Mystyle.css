@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Josefin+Sans:wght@100;200;300;400&display=swap');
+body{
+    background-image: url('../img/soft background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.img-profil{
+    width: 152px;
+    height: 152px;
+}
+
+.bg-custom{
+    background-color: #0000007c;
+    border-radius: 18px;
+}
+.p-custom{
+    padding: 40px;
+}
+.text-name{
+    font-family: Akaya Telivigala;
+    font-size: 23pt;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    text-align: center;
+}
+.text-role{
+    font-family: Josefin Sans;
+    font-size: 15pt;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+    font-weight: 300;
+}
+.text-biography{
+    font-family: Open Sans;
+    color: #ECF0F1;
+    font-size: 10pt;
+}
+.t-custom{
+    color: #ECF0F1;
+}
+.bg-title{
+    background-color: white;
+    border-radius: 18pt 18pt 0pt 0pt;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 0px;
+}
+.text-title{
+    font-family: Josefin Sans;
+    font-size: 14pt;
+    font-weight: 400;
+    color: #7D517B;
+}
+.bg-body{
+    background-color: #0000007c;
+    border-radius: 0px 0px 18px 18px;
+    margin-top: -2px;
+}
+.img-social-media{
+    width: 58px;
+    height: 58px;
+    border-radius: 14pt;
+}
+.bg-title-rounded{
+    border-radius: 18pt!important;
+}
+.border-title{
+    width: 100px;
+    height: 3px;
+    background-color: #FFFFFF;
+    margin-top: -3px;
+}
+.carousel-cell {
+    width: 33%; /* full width */
+    height: 160px; /* height of carousel */
+    text-align: center;
+}
+.carousel-cell-image{
+    height: 160px;
+}
+/* position dots up a bit */
+.flickity-page-dots {
+    bottom: -10px;
+}
+/* dots are lines */
+.flickity-page-dots .dot {
+    height: 4px;
+    width: 40px;
+    margin: 0;
+    border-radius: 2px;
+    background-color: white;
+}
+.carousel.is-fullscreen .carousel-cell {
+    width: 80vw;
+    height: 100%;
+    margin-right: 10px;
+}
+.carousel.is-fullscreen .carousel-cell-image {
+    height: 80vh;
+}
+#text-social-media{
+    font-family: open Sans;
+}
+@media (max-width: 575.98px) { 
+    .img-social-media{
+        width: 45px;
+        height: 45px;
+        border-radius: 14pt;
+    }
+    #text-social-media{
+        display: none;
+    }
+    .carousel-cell {
+        width: 50%; /* full width */
+        height: 160px; /* height of carousel */
+        text-align: center;
+    }
+    .carousel-cell-image{
+        height: 160px;
+    }
+}
