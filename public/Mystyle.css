@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Josefin+Sans:wght@100;200;300;400&display=swap');
 body{
-    background-image: url('../img/soft background.jpg');
+    /* background-image: url('../img/soft background.jpg'); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-color: #636e72;
 }
 .img-profil{
     width: 152px;
     height: 152px;
+}
+
+.border-18{
+    border-radius: 18px !important;
 }
 
 .bg-custom{
@@ -45,15 +50,21 @@ body{
     border-radius: 18pt 18pt 0pt 0pt;
     border: 1px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 0px;
+    align-items: center;
 }
 .text-title{
     font-family: Josefin Sans;
     font-size: 14pt;
-    font-weight: 400;
-    color: #7D517B;
+    font-weight: 500;
+    color: #2d3436;
+    margin-top: 10px;
+}
+
+.bg-dark3{
+    background-color: #dfe6e9;
 }
 .bg-body{
-    background-color: #0000007c;
+    background-color: #2d3436;
     border-radius: 0px 0px 18px 18px;
     margin-top: -2px;
 }
@@ -99,6 +110,9 @@ body{
 }
 .carousel.is-fullscreen .carousel-cell-image {
     height: 80vh;
+}
+a{
+    color: #0984e3;
 }
 #text-social-media{
     font-family: open Sans;
